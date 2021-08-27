@@ -1,0 +1,80 @@
+body {
+  font-family: -apple-system, Helvetica, sans-serif;
+  line-height: 1.25;
+  color: #24292f;
+}
+
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+.avatar{
+  width: 250px;
+  height: 250px;
+  background-image: url(./panda.jpeg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 50%;
+}
+
+.vrt-marg {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.border-bottom {
+  padding-bottom: .3em;
+  border-bottom-color: #d8dee4;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+ul {
+  padding-left: 2em;
+  margin-bottom: 16px;
+}
+
+ul li {
+  margin-top: .25em;
+}
+
+ul li:first-child {
+  margin-top: 0;
+}
+
+ul > li > ul {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.quote {
+  box-sizing: border-box;
+  padding-left: 16px;
+  font-size: 16px;
+  color: #57606a;
+  border-left-color: #d0d7de;
+  border-left-style: solid;
+  border-left-width: .25em;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 150px;
+}
